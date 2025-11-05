@@ -297,6 +297,9 @@
   .border-white {
     border-color: var(--color-white);
   }
+  .bg-\[\#4e4e4e\] {
+    background-color: #4e4e4e;
+  }
   .bg-\[\#5AC6FA\]\/77 {
     background-color: color-mix(in oklab, #5AC6FA 77%, transparent);
   }
@@ -308,6 +311,9 @@
   }
   .bg-\[\#459CE3\]\/\[77\%\] {
     background-color: color-mix(in oklab, #459CE3 77%, transparent);
+  }
+  .bg-\[\#424242\] {
+    background-color: #424242;
   }
   .bg-\[\#808080\] {
     background-color: #808080;
