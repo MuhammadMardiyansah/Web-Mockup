@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skill Test-Browser Not Supported</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/swiper-bundle.min.css" />  
+ 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="/src/css/input.css" />
 
@@ -23,9 +24,9 @@
 
 </head>
 <body class="relative h-full overflow-hidden text-white">
-    <div class="flex flex-col min-h-screen relative">
+    <main class="flex flex-col min-h-screen relative">
       <!-- card abu-abu -->
-      <div class="bg-[#808080] text-white w-full h-fit-content py-3 px-6 md:px-60 flex flex-col justify-center z-10 relative md:mt-24">
+      <section class="bg-[#808080] text-white w-full h-fit-content py-3 px-6 md:px-60 flex flex-col justify-center z-10 relative md:mt-24">
           <div class="flex items-center mb-4">
               <img src="assets/exclamation-triangle.svg" alt="Exclamation Triangle" class="w-10 md:w-14 h-10 md:h-14 mr-3 filter invert" />
               <h1 class="text-xl font-semibold leading-tight">
@@ -43,10 +44,10 @@
             class="hidden w-[250px] md:block bg-[#979696] order border border-white text-white text-sm px-6 py-3 my-3 transition">
             How do I update my browser
           </button>
-      </div>
+        </section>
 
       <!-- item per web browser -->
-      <div
+      <section
           class="absolute md:top-0 top-[200px] left-0 right-0 bottom-0 z-0 flex flex-col md:flex-row bg-cover bg-center"
           style="background-image: url('assets/background.jpg');"
       >
@@ -145,8 +146,8 @@
               <img src="assets/download.svg" alt="Icon Download" class="filter invert">
           </a> 
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
     <script src="js/script.js"></script>
 </body>
