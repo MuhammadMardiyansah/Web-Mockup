@@ -6,8 +6,14 @@
 .relative {
   position: relative;
 }
+.top-\[200px\] {
+  top: 200px;
+}
 .top-\[230px\] {
   top: 230px;
+}
+.top-\[240px\] {
+  top: 240px;
 }
 .top-\[250px\] {
   top: 250px;
