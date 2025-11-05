@@ -5,22 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skill Test-Browser Not Supported</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  
  
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="/src/css/input.css" />
-
+  
   <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
-
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-    }
-  </style>
 
 </head>
 <body class="relative h-full overflow-hidden text-white">
@@ -41,7 +30,7 @@
           </p>
 
           <button onclick="download()"
-            class="hidden w-[250px] md:block bg-[#979696] order border border-white text-white text-sm px-6 py-3 my-3 transition">
+            class="hidden cursor-pointer w-[250px] md:block bg-[#979696] order border border-white text-white text-sm px-6 py-3 my-3 transition">
             How do I update my browser
           </button>
         </section>
@@ -52,97 +41,97 @@
           style="background-image: url('assets/background.jpg');"
       >
         <!-- chrome -->
-        <div class="h-[25%] w-full md:h-full md:w-[40%] bg-[#EBBA4A]/[77%] flex md:justify-end items-center relative ">
-          <div class="flex md:flex-col justify-center items-center md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5">
+        <div class="h-[25%] w-full md:h-full md:w-[40%] bg-[#EBBA4A]/77 flex md:justify-end items-center relative ">
+          <div class="flex md:flex-col justify-center items-center md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 transition-all duration-300 ease-in-out hover:-translate-y-1.5">
               <img src="assets/chrome.svg" alt="Chrome" class="w-14 md:w-[90px] h-14 md:h-[90px] mb-2 filter invert" />
               <div class="mt-2 md:text-center">
                   <h3 class="text-lg md:text-md font-medium uppercase">Google Chrome</h3>
                   <p class="text-lg md:text-md text-gray-200 mb-4">Version 40+</p>
               </div>
               <button 
-                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition"
+                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition cursor-pointer"
                   onclick="download('https://www.google.com/chrome/')">
                   Download
               </button>
           </div>
-          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5" href="">
+          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-in-out hover:-translate-y-1.5" href="">
               <img src="assets/download.svg" alt="Icon Download" class="filter invert">
           </a> 
         </div>
 
         <!-- mozila -->
-        <div class="h-[25%] w-full md:h-full md:w-[19%] bg-[#E8A03E]/[77%] flex md:justify-end items-center relative">
-          <div class="flex md:flex-col justify-center items-center  md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5">
+        <div class="h-[25%] w-full md:h-full md:w-[20%] bg-[#E8A03E]/77 flex md:justify-end items-center relative">
+          <div class="flex md:flex-col justify-center items-center md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 transition-all duration-300 ease-in-out hover:-translate-y-1.5">
               <img src="assets/firefox-browser.svg" alt="Mozila" class="w-14 md:w-[90px] h-14 md:h-[90px] mb-2 filter invert" />
               <div class="mt-2 md:text-center">
-                  <h3 class="text-lg md:text-md font-medium uppercase">Mozilla Firefox</h3>
+                  <h3 class="font-medium uppercase">Mozilla Firefox</h3>
                   <p class="text-lg text-gray-200 mb-4">Version 40+</p>
               </div>
               <button 
-                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition"
+                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition cursor-pointer"
                   onclick="download('https://www.mozilla.org/firefox/')">
                   Download
               </button>
           </div>
-          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5" href="https://www.mozilla.org/firefox/">
+          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-in-out hover:-translate-y-1.5" href="https://www.mozilla.org/firefox/">
               <img src="assets/download.svg" alt="Icon Download" class="filter invert">
           </a> 
         </div>
 
         <!-- edge -->
-        <div class="h-[25%] w-full md:h-full md:w-[19%] bg-[#5AC6FA]/[77%] flex md:justify-end items-center">
-          <div class="flex md:flex-col justify-center items-center  md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 relative transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5">
+        <div class="h-[25%] w-full md:h-full md:w-[20%] bg-[#5AC6FA]/77 flex md:justify-end items-center">
+          <div class="flex md:flex-col justify-center items-center  md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 relative transition-all duration-300 ease-in-out hover:-translate-y-1.5">
               <img src="assets/edge.svg" alt="Edge" class="w-14 md:w-[90px] h-14 md:h-[90px] mb-2 filter invert" />
               <div class="mt-2 md:text-center">
-                  <h3 class="text-lg font-medium uppercase">Microsoft Edge</h3>
-                  <p class="text-lg text-gray-200 mb-4">Version 40+</p>
+                  <h3 class="font-medium uppercase">Microsoft Edge</h3>
+                  <p class="text-md text-gray-200 mb-4">Version 40+</p>
               </div>
               <button 
-                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition"
+                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition cursor-pointer"
                   onclick="download('https://www.microsoft.com/edge')">
                   Download
               </button>
           </div>
-          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5" href="https://www.microsoft.com/edge">
+          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-in-out hover:-translate-y-1.5" href="https://www.microsoft.com/edge">
               <img src="assets/download.svg" alt="Icon Download" class="filter invert">
           </a> 
         </div>
 
         <!-- apple safari -->
-        <div class="h-[25%] w-full md:h-full md:w-[19%] bg-[#459CE3]/[77%] flex md:justify-end items-center relative">
-          <div class="flex md:flex-col justify-center items-center md:mt-80 mt-1 ml-5 md:mr-8 gap-6 md:gap-0 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5">
+        <div class="h-[25%] w-full md:h-full md:w-[20%] bg-[#459CE3]/77 flex md:justify-end items-center relative">
+          <div class="flex md:flex-col justify-center items-center md:mt-80 mt-1 ml-5 md:mr-8 gap-6 md:gap-0 transition-all duration-300 ease-in-out hover:-translate-y-1.5">
               <img src="assets/safari.svg" alt="Apple Safari" class="w-14 md:w-[90px] h-14 md:h-[90px] mb-2 filter invert" />
               <div class="mt-2 md:text-center">
                   <h3 class="text-lg font-medium uppercase">Apple Safari</h3>
                   <p class="text-lg text-gray-200 mb-4">Version 40+</p>
               </div>
               <button 
-                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition"
+                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition cursor-pointer"
                   onclick="download('https://www.apple.com/safari/')">
                   Download
               </button>
           </div>
-          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5" href="https://www.apple.com/safari/">
+          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-in-out hover:-translate-y-1.5" href="https://www.apple.com/safari/">
               <img src="assets/download.svg" alt="Icon Download" class="filter invert">
           </a> 
         </div>
 
         <!-- opera -->
-        <div class="h-[24%] w-full md:h-full md:w-[40%] bg-[#E3634D]/[77%] flex md:justify-start items-center  relative">
-          <div class="flex md:flex-col justify-center items-center md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5">
+        <div class="h-[24%] w-full md:h-full md:w-[40%] bg-[#E3634D]/77 flex md:justify-start items-center  relative">
+          <div class="flex md:flex-col justify-center items-center md:mt-80 mt-1 ml-5 md:mr-4 gap-6 md:gap-0 transition-all duration-300 ease-in-out hover:-translate-y-1.5">
               <img src="assets/opera.svg" alt="Opera" class="w-14 md:w-[90px] h-14 md:h-[90px] mb-2 filter invert" />
               <div class="mt-2 md:text-center">
                   <h3 class="text-lg font-medium uppercase">Opera</h3>
                   <p class="text-lg text-gray-200 mb-4">Version 40+</p>
               </div>
               <button 
-                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition"
+                  class="buttonDownload border border-white text-white px-4 py-2 bg-[#b69061]/40 hover:bg-[#b69061]/60 transition cursor-pointer"
                   onclick="download('https://www.opera.com/')">
                   Download
               </button>
           </div>
 
-          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] hover:-translate-y-1.5" href="https://www.opera.com/">
+          <a class="iconDownload absolute mt-1 right-4 transition-all duration-300 ease-in-out hover:-translate-y-1.5" href="https://www.opera.com/">
               <img src="assets/download.svg" alt="Icon Download" class="filter invert">
           </a> 
         </div>

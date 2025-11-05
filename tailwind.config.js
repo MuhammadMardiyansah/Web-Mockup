@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
 
-      colors:[
-        buttonUpdate="#979696",
-      ]
+      colors:{
+        buttonUpdate: '#979696',
+      },
+        
     },
   },
   plugins: [],
